@@ -88,7 +88,7 @@ Write-Host "══════════════════════�
 Write-Host "  📋 RÉSUMÉ" -ForegroundColor Yellow
 Write-Host "═══════════════════════════════════════════════════════════`n" -ForegroundColor Cyan
 
-Write-Host "Phase 1 & 2 : Configuration complète, en attente de test" -ForegroundColor Green
+Write-Host "Phase 1 et 2 : Configuration complète, en attente de test" -ForegroundColor Green
 Write-Host "Phase 3 : Configuration prête, nécessite installation outils" -ForegroundColor Yellow
 Write-Host "Phase 4 : Configuration complète, prête après Phase 3`n" -ForegroundColor Green
 
