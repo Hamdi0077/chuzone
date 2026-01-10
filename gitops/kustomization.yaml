@@ -11,5 +11,5 @@ resources:
   - ingress.yaml
 
 images:
-  - name: YOUR_DOCKER_USERNAME/chuzone-app
+  - name: hamdilh/chuzone-app
     newTag: "1.0.0"
