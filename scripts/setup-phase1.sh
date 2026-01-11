@@ -48,3 +48,7 @@ echo "   - DOCKER_USERNAME = hamdilh"
 echo "   - DOCKER_PASSWORD = votre token Docker Hub"
 echo "2. Créez une Pull Request pour tester le workflow CI"
 echo ""
+
+
+
+

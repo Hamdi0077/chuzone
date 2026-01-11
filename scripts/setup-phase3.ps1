@@ -75,5 +75,6 @@ Write-Host "📋 Prochaines étapes:" -ForegroundColor Yellow
 Write-Host "1. Installez Terraform et AWS CLI (voir INSTALL_PREREQUISITES.md)" -ForegroundColor Cyan
 Write-Host "2. Configurez AWS: aws configure" -ForegroundColor Cyan
 Write-Host "3. Créez la clé SSH AWS" -ForegroundColor Cyan
-Write-Host "4. Déployez: cd terraform && terraform init && terraform apply" -ForegroundColor Cyan
+Write-Host "4. Déployez: cd terraform ; terraform init ; terraform apply" -ForegroundColor Cyan
 Write-Host ""
+

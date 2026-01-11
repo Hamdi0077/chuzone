@@ -277,3 +277,7 @@ Tapez `yes` quand demandé.
 ---
 
 **📝 Note :** Les scripts d'installation Kubernetes (`master-init.sh` et `worker-init.sh`) s'exécutent automatiquement au démarrage des instances via `user_data`.
+
+
+
+

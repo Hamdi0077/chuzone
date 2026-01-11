@@ -10,3 +10,7 @@ key_pair_name      = "k8s-keypair" # Nom de votre clé SSH AWS
 # Note : Créez la clé SSH avant de déployer :
 # ssh-keygen -t rsa -b 4096 -f ~/.ssh/k8s-keypair -N ""
 # aws ec2 import-key-pair --key-name k8s-keypair --public-key-material fileb://~/.ssh/k8s-keypair.pub --region us-east-1
+
+
+
+
