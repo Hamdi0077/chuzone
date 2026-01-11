@@ -196,6 +196,33 @@ kubectl get pods -n examen-26
 
 ## 🚀 Utilisation
 
+### Lancer l'Application en Localhost
+
+**Mode Développement (Recommandé) :**
+
+```bash
+npm install      # Si pas déjà fait
+npm run dev      # Démarre le serveur de développement
+```
+
+Ouvrez votre navigateur sur : **http://localhost:3000**
+
+**Mode Production :**
+
+```bash
+npm run build    # Build l'application
+npm run preview  # Prévisualise la version buildée
+```
+
+**Avec Docker :**
+
+```bash
+docker build -t chuzone-app:local .
+docker run -d -p 8080:80 --name chuzone-local chuzone-app:local
+```
+
+Accès sur : **http://localhost:8080**
+
 ### Phase 1 & 2 (Opérationnel)
 
 1. Créer une Pull Request → Déclenche automatiquement le workflow CI
